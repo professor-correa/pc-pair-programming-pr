@@ -1,4 +1,4 @@
-Criamos este repositório para praticar programação em dupla e conquistar a badge de Co-author no GitHub.
+Criamos este repositório para praticar programação em dupla e poder conquistar a badge de Co-author no GitHub.
 
 Classes usadas:
 btn matrix:Utilizada para estilizar o botão dando cor,forma etc...
