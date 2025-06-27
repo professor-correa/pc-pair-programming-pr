@@ -1,6 +1,7 @@
 # Explicando sobre o cubo
  Foi criado uma main da qual cada section é um cubo.
- Os cubos gerados possuem uma propriedade 3d, incluindo o pai deles, utilizando do preserve3d. utilizando uma curva com transform e rotacionando com rotateZ e rotateY.
+ Os cubos gerados possuem uma propriedade 3d, incluindo o pai deles, utilizando do preserve3d.
+ utilizando uma curva com transform e rotacionando com rotateZ e rotateY.
 
 ## preserve3d
 faz com que os elementos fiquem no formato 3d.

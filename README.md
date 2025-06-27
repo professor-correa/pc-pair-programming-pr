@@ -55,7 +55,7 @@ Mantenha nomes de arquivos e pastas claros e consistentes.
 6. **Push**  
    ```bash
    git push origin dupla-nome-tarefa
-   ```
+   ``` 
 
 7. **Abra o Pull Request**  
    - **Título:** `Dupla: NomeA & NomeB – Descrição da tarefa`  
