@@ -1,0 +1,139 @@
+/* From Uiverse.io by Nawsome */ 
+@import url(./global.css);
+body {
+    background: #2b2b2b;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cubes {
+  height: calc(var(--size) * 2);
+  width: calc(var(--size) * 3);
+  position: relative;
+  transform-style: preserve-3d;
+  margin-top: calc(var(--size) * 1.5 * -1);
+  transform: rotateX(45deg) rotateZ(45deg) translateZ(0px);
+}
+
+.cubes .box {
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+.cubes .box:nth-child(1) {
+  transform: translate(100%, 0);
+  animation: box1 var(--duration) running infinite;
+}
+
+.cubes .box:nth-child(2) {
+  transform: translate(0, 100%);
+  animation: box2 var(--duration) linear infinite;
+}
+
+.cubes .box:nth-child(3) {
+  transform: translate(100%, 100%);
+  animation: box3 var(--duration) running infinite;
+}
+
+.cubes .box:nth-child(4) {
+  transform: translate(200%, 0);
+  animation: box4 var(--duration) linear infinite;
+}
+
+.cubes .box > div {
+  --background: #c3ff00;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  transform: var(--translateZ);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--background);
+  top: var(--top);
+  right: var(--right);
+  bottom: var(--bottom);
+  left: var(--left);
+  transform: rotateY(var(--rotateY)) rotateX(var(--rotateX)) translateZ(var(--translateZ));
+}
+
+.cubes .box > div:nth-child(1) {
+  top: var(--top);
+  left: var(--left);
+}
+
+.cubes .box > div:nth-child(2) {
+  background: #999e0d;
+  right: 0;
+  --rotateY: 90deg;
+}
+
+.cubes .box > div:nth-child(3) {
+  background: #c5e03d;
+  --rotateX: -90deg;
+}
+
+.cubes .box > div:nth-child(4) {
+  background: #313a2c;
+  top: var(--top);
+  left: var(--left);
+  transform: translateZ(calc(var(--size) * 3 * -1));
+}
+@keyframes box1 {
+  0%, 50% {
+    transform: translate(100%, 0);
+  }
+  100% {
+    transform: translate(200%, 0);
+  }
+}
+
+@keyframes box2 {
+  0% {
+    transform: translate(0, 100%);
+  }
+
+  50% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(100%, 0);
+  }
+}
+
+@keyframes box3 {
+  0%, 50% {
+    transform: translate(100%, 100%);
+  }
+
+  100% {
+    transform: translate(0, 100%);
+  }
+}
+
+@keyframes box4 {
+  0% {
+    transform: translate(200%, 0);
+  }
+
+  50% {
+    transform: translate(200%, 100%);
+  }
+
+  100% {
+    transform: translate(100%, 100%);
+  }
+}

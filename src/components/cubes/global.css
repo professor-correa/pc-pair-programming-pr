@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --size: 32px;
+    --duration: 800ms;
+    --top: 0;
+    --left: 0;
+    --rotateY: 0deg;
+    --rotateX: 0deg;
+    --translateZ: calc(var(--size) / 2);
+}
