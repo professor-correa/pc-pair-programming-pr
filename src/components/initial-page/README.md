@@ -13,7 +13,7 @@ Criado para conquistar o achievement de Co-author
     - < video > -> Mostra um vídeo sendo o background
     - < classe conteudo > -> section que agrupa o h1 e o botão
 
-- Estrutura do Component:
+- Estrutura do Componente:
 
 ```
 initial-page/
