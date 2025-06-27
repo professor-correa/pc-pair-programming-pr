@@ -47,10 +47,9 @@ Mantenha nomes de arquivos e pastas claros e consistentes.
    git add .
    git commit -m "feat: adiciona NomeComponente
 
-   Co-authored-by: Nome Aluno A <emailA@exemplo.com>
-   Co-authored-by: Nome Aluno B <emailB@exemplo.com>"
+   Co-authored-by: username <emailgithub@exemplo.com>"
    ```
-   - **Dica:** Verifique se seus emails são públicos ou se você desativou a proteção de email.
+   - **Dica:** Verifique se seus emails são públicos ou se você desativou a proteção de email e é para colocar apenas co-autores não quem está enviando.
 
 6. **Push**  
    ```bash
