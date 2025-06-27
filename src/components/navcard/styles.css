@@ -1,0 +1,11 @@
+a {
+   color: white !important;
+}
+
+.dropdown-menu>li>a {
+    color: black !important;
+}
+
+.card{
+    margin: 100px;
+}
