@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right bottom, #000000, #2f232d, #4a4661, #4d719a, #2ba2c9, #24b4db, #19c6ed, #00d8ff, #00caff, #26b4ff, #9c94ff, #e961ff);
+}
+
+.group-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    width: 400px;
+    height: 450px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: rgba(255, 255, 255, 0.203);
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+}
+
+.cards:hover{
+    transform: translate(50px, 20px) scale(1.1);;
+    box-shadow: rgba(235, 233, 233, 0.578) 5px 5px 5px;
+}
+
+.cards>img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.grupo-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.grupo-icons>img:hover{
+ transform: rotate(90deg);
+}
