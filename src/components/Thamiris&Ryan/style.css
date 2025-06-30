@@ -1,0 +1,38 @@
+@keyframes animarGradiente {
+    0% {
+        background-position: 0% 50%;
+        }
+    100% {
+        background-position: 100% 50%;
+        }
+    }
+    body {
+        background-color: #490f6b;
+        }
+    button {
+        position: absolute;
+        background: linear-gradient(120deg, #900ee0, #490f6b, #b258eb);
+        background-size: 200% 200%;
+        animation: animarGradiente 4s ease-in-out infinite alternate;
+        color: rgb(255, 255, 255);
+        border-radius: 4rem;
+        text-align: center;
+        padding: 3rem;
+        font-size: 50px;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        font-family: "Fira Sans", sans-serif;
+        transition: transform 0.2s;
+    }
+    button:hover {
+        transform: scale(1.05);
+        }
+        p{
+        position: absolute;
+        top: 0;
+        left: 50vw;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 30px;
+}
